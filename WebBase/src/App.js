@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Login from './LoginComponent/Login';
 function App() {
   return (
     <div className="App">
@@ -15,8 +15,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hello World
         </a>
+        <Login />
       </header>
     </div>
   );
